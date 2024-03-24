@@ -1,0 +1,36 @@
+*** Simple Banking System ***
+
+### Overview
+This Simple Banking System is a console-based application written in C, designed to manage basic banking operations. It uses SQLite as its backend database to store and manage data related to accounts and transactions. The application allows users to create new bank accounts, view account details, deposit and withdraw funds, and update account information.
+
+### Features
+- Create Account: Allows the user to create a new bank account by providing personal details and an initial deposit amount.
+- View Accounts: Displays a list of all accounts in the system, including account numbers, names, dates of birth, addresses, and balances.
+- View Transactions: Allows the user to view all transactions for a specific account.
+- Deposit Into Account: Enables depositing an amount into an existing account.
+- Withdraw From Account: Allows withdrawals from an existing account, provided there are sufficient funds.
+- Update Account Details: Enables updating personal information for an existing account.
+
+### Installation
+To run the Simple Banking System, you need to have a C compiler (like GCC) and SQLite installed on your system.
+
+### Install SQLite:
+Ensure SQLite3 is installed on your system. You can download it from the SQLite official website or use a package manager on Linux or macOS.
+
+### Compile the Program:
+Use the following command to compile the program:
+gcc -o banking_system banking_system.c -lsqlite3
+
+### Run the Application:
+After compiling, you can start the application using:
+./banking_system
+
+
+### Usage
+Upon running the application, you will be presented with the main menu, which includes options for various banking operations. Select an option by entering the corresponding number and follow the prompts to perform banking transactions.
+
+- To navigate through the menu, simply enter the number of the desired action and press enter.
+- When prompted, provide the necessary information for each operation.
+
+### Contributing
+Contributions to the Simple Banking System are welcome. Please feel free to fork the repository, make your changes, and submit a pull request.
